@@ -5,7 +5,10 @@
 
 (in-package :cl-user)
 (defpackage cl-term
-  (:use :cl))
+  (:use :cl)
+  (:export color-code csi sgr fg-color bg-color clear term-reset
+           move-to move-up move-down move-right-move-left
+           write-at bold underline blink))
 (in-package :cl-term)
 
 (defparameter *fg* :white)
