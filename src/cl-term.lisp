@@ -1,3 +1,13 @@
+#|
+  This file is a part of cl-term project.
+  Copyright (c) 2012 Ales Guzik (me@aguzik.net)
+|#
+
+(in-package :cl-user)
+(defpackage cl-term
+  (:use :cl))
+(in-package :cl-term)
+
 (defparameter *fg* :white)
 (defparameter *bg* :blue)
 
